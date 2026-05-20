@@ -989,6 +989,29 @@
             opacity: 0.8;
         }
     }
+
+    /* تصميم الزر الجذاب */
+.achievment-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid var(--accent-cyan);
+    color: var(--accent-cyan);
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.achievment-btn:hover {
+    background: var(--accent-cyan);
+    color: var(--body-bg);
+    transform: scale(1.1);
+    box-shadow: 0 0 15px var(--accent-cyan);
+}
 </style>
 </head>
 
@@ -1131,11 +1154,14 @@
         </div>
 
 
-        <h2 id="section-education" style="text-align: left; width: 100%; margin-top: 40px; font-weight: 800; letter-spacing: 1px; color: var(--brand-text); font-size: xx-large;">Education & Global Accreditations</h2>
-        
-        <div class="glass-panel project-card" style="margin-top: 20px;">
-            <h3 class="sub-cyan"><i class="fa-solid fa-graduation-cap" style="margin-right: 12px;"></i> Academic Excellence & Professional Frameworks</h3>
-            
+       <div style="display: flex; align-items: center; justify-content: space-between; margin-top: 40px;">
+    <h2 id="section-education" style="margin: 0; font-weight: 800; letter-spacing: 1px; color: var(--brand-text); font-size: xx-large;">
+        Education & Global Accreditations
+    </h2>
+    <a href="achievment.html" class="achievment-btn">
+        View Certfications <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i>
+    </a>
+</div>
             <div class="education-horizontal-grid">
                 
                 <div class="edu-badge-capsule">
